@@ -11,8 +11,8 @@ def python_setup(font_scale=2):
 
     # Set working directory
     working_dir = os.getcwd()
-    charts_dir = os.path.join(working_dir, "Charts")
-    data_dir = os.path.join(working_dir, "Data")
+    charts_dir = os.path.join(working_dir, "charts")
+    data_dir = os.path.join(working_dir, "data")
 
     return working_dir, charts_dir, data_dir
 
@@ -34,7 +34,7 @@ def get_mms_data(script_name, arguments=None):
         engine = create_engine(database_url)
 
         # SQL query
-        with open(f"./Scripts/{script_name}.sql", "r") as sql:
+        with open(f"./scripts/{script_name}.sql", "r") as sql:
             sql_query = sql.read()
 
         # Extract and return results
