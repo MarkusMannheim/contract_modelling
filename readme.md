@@ -9,9 +9,9 @@
 * All contract parties – suppliers and buyers – are in the South Australian market
 * Generation and price profiles are based on historic SA data (5 years of data: 2020 to 2024)
 * Suppliers include:
-  1. **Existing wind**: All existing large-scale SA wind stations that have been generating since 2020, scaled to 250 MW
-  2. **Existing solar**: All existing large-scale SA solar stations that have been generating since 2020, scaled to 250 MW
-  2. **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park profile, scaled to 250 MW each of wind/solar
+  - **Existing wind**: All existing large-scale SA wind stations that have been generating since 2020, scaled to 250 MW
+  - **Existing solar**: All existing large-scale SA solar stations that have been generating since 2020, scaled to 250 MW
+  - **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park profile, scaled to 250 MW each of wind/solar
 
 ## Potential modelling updates
 
