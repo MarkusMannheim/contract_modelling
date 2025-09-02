@@ -1,0 +1,19 @@
+# Data files
+data/
+*_largefile.csv
+*.xlsx
+
+# Environment files
+.env
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
