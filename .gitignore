@@ -1,6 +1,6 @@
-# Data files
-*_largefile.csv
-*.xlsx
+# Ignore local large files
+data/*_largefile.csv
+!data/.gitkeep
 
 # Environment files
 .env
@@ -8,10 +8,6 @@
 
 # Jupyter notebooks
 .ipynb_checkpoints/
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Python cache
 __pycache__/
