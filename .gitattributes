@@ -1,3 +1,1 @@
-*_largefile.csv filter=lfs diff=lfs merge=lfs -text
 data/*_largefile.csv filter=lfs diff=lfs merge=lfs -text
-**/*_largefile.csv filter=lfs diff=lfs merge=lfs -text
