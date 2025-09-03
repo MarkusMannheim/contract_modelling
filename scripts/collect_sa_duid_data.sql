@@ -56,7 +56,7 @@ SELECT
     -- Maximum capacity (MW)
     lc.MAXCAPACITY AS 'Maximum capacity',
     -- Relative output (% of max capacity)
-    CASE WHEN lc.MAXCAPACITY > 0 THEN (dl.INITIALMW + dl.TOTALCLEARED) / 2.0 / lc.MAXCAPACITY ELSE NULL END AS 'Relative Output',
+    CASE WHEN lc.MAXCAPACITY > 0 THEN (dl.INITIALMW + dl.TOTALCLEARED) / 2.0 / lc.MAXCAPACITY ELSE NULL END AS 'Relative output',
     -- Relative availability (% of max capacity)
     CASE WHEN lc.MAXCAPACITY > 0 THEN dl.AVAILABILITY / lc.MAXCAPACITY ELSE NULL END AS 'Relative availability'
 FROM
