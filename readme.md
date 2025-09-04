@@ -51,7 +51,7 @@ Distribution of individual CFs:
 
 ### Seasonal generation and load
 
-Mean monthly generation (availability) and load, 2020 to 2024:
+Mean monthly generation (availability), 2020 to 2024:
 
 ![Mean monthly SA availability](./charts/sa_mean_monthly_generation.png)
 
