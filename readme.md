@@ -13,7 +13,7 @@
   - **Existing solar**: 19 large-scale SA solar stations, scaled to 250 MW
   - **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park wind and solar profile, scaled to 250 MW each of wind/solar
 
-### Generator locations
+### Existing generator locations
 
 ![Generator locations](./charts/sa_generator_locations.png)
 
@@ -29,7 +29,17 @@
 
 ## Observations of SA wind and solar market
 
-### Size of wind and solar fleets
+### Size (capacity) of fleet
 
 ![Generator locations](./charts/growth_of_sa_fleet.png)
+
+### Capacity factors
+
+Aggregate fleet CF over the 5 years:
+* Solar: **19.4%**
+* Wind: **30.6%**
+
+Individual generator CFs are shown below:
+
+![Generator locations](./charts/sa_fleet_capacity_factors.png)
 
