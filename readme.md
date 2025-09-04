@@ -35,26 +35,26 @@
 
 ### Size of fleet
 
+**Maximum capacity** (MW, 2020 to 2024)
+
 ![Size of SA wind and solar fleet](./charts/growth_of_sa_fleet.png)
 
 ### Capacity factors
 
-Capacity factors are calculated from dispatched output rather not availability.
-
-Aggregate fleet CF over the 5 years:
+Generator capacity factors are calculated from dispatched output rather than availability. The aggregate fleet capacity factors over the 5 years analysed are:
 * Solar: **19.4%**
 * Wind: **30.6%**
 
-Distribution of individual CFs:
+Below are the distributions of individual generator capacity factors:
 
 ![Distribution of capacity factors](./charts/sa_fleet_capacity_factors.png)
 
 ### Seasonal generation and load
 
-Mean monthly generation (availability), 2020 to 2024:
+**Mean monthly generation (availability)** (MW, 2020 to 2024)
 
 ![Mean monthly SA availability](./charts/sa_mean_monthly_generation.png)
 
-Mean monthly load, 2020 to 2024:
+**Mean monthly load** (MW, 2020 to 2024)
 
 ![Mean monthly SA Load](./charts/sa_mean_monthly_load.png)
