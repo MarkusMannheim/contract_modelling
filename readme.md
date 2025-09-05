@@ -1,10 +1,27 @@
 #### **NEM Review contract co-design workshop**
 
-# Contract financial performance modelling
+# Contract financial performance modelling<a name="contract-financial-performance-modelling"></a>
 
-## Initial modelling approach
+<a name="top"></a>
+<a name="contents"></a>
+## Contents
 
-### Data profiles
+* [Initial modelling approach](#initial-modelling-approach)
+  * [Data profiles](#data-profiles)
+  * [Existing generator locations](#existing-generator-locations)
+* [Potential modelling updates](#potential-modelling-updates)
+* [SA wind and solar market observations](#sa-wind-and-solar-market-observations)
+  * [Size of fleet](#size-of-fleet)
+  * [Capacity factors](#capacity-factors)
+  * [Seasonal generation and load](#seasonal-generation-and-load)
+
+---
+
+## [Initial modelling approach](#initial-modelling-approach)
+<a name="initial-modelling-approach"></a>
+
+### [Data profiles](#data-profiles)
+<a name="data-profiles"></a>
 
 * All contract parties (suppliers and buyers) are in the South Australian market
 * Generation and price profiles are based on historic SA data (5 years of data: 2020 to 2024)
@@ -14,42 +31,59 @@
   - **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park wind and solar profile, scaled to 250 MW each of wind/solar
 * Buyers' demand reflects the SA load profile
 
-### Existing generator locations
+### [Existing generator locations](#existing-generator-locations)
+<a name="existing-generator-locations"></a>
 
 * 26 wind generators
 * 19 solar generators
 
 ![Existing SA generator locations](./charts/sa_generator_locations.png)
 
-## Potential modelling updates
+[Back to top](#top)
 
-* Incorporate hydrid stations: 
-  - **Wind-battery hydrid**: A hypothetical station with wind profile based on Hornsdale 3, scaled to 250 MW with 100 MW (200 MWh) battery
-  - **Solar-battery hydrid**: A hypothetical station wind profile based on Bungala 2, scaled to 250 MW with 100 MW (200 MWh) battery
+---
+
+## [Potential modelling updates](#potential-modelling-updates)
+<a name="potential-modelling-updates"></a>
+
+* Incorporate hybrid stations:
+  * **Wind-battery hybrid**: A hypothetical station with wind profile based on Hornsdale 3, scaled to 250 MW with 100 MW (200 MWh) battery
+  * **Solar-battery hybrid**: A hypothetical station wind profile based on Bungala 2, scaled to 250 MW with 100 MW (200 MWh) battery
 * Hybrid stations' battery behaviour will be based on heuristics, prioritising defence of the station's contract position
-* Incorporate seasonal generation data from AEMO's Generation Information, with contracts tailed to varying maximum capacities 
+* Incorporate seasonal generation data from AEMO's Generation Information, with contracts tailored to varying maximum capacities
 * Expand modelling to all NEM regions
 * Synthesise generation and price data to test contracts against a wider range of outcomes
 
-## SA wind and solar market observations
+[Back to top](#top)
 
-### Size of fleet
+---
+
+## [SA wind and solar market observations](#sa-wind-and-solar-market-observations)
+<a name="sa-wind-and-solar-market-observations"></a>
+
+### [Size of fleet](#size-of-fleet)
+<a name="size-of-fleet"></a>
 
 **Maximum capacity** (MW, 2020 to 2024)
 
 ![Size of SA wind and solar fleet](./charts/growth_of_sa_fleet.png)
+[Back to section top](#sa-wind-and-solar-market-observations)
 
-### Capacity factors
+### [Capacity factors](#capacity-factors)
+<a name="capacity-factors"></a>
 
 Generator capacity factors are calculated from dispatched output rather than availability. The aggregate fleet capacity factors over the 5 years analysed are:
 * Solar: **19.4%**
 * Wind: **30.6%**
 
-Below are the distributions of individual generator capacity factors:
+**Distributions of generator capacity factors**
 
 ![Distribution of capacity factors](./charts/sa_fleet_capacity_factors.png)
 
-### Seasonal generation and load
+[Back to section top](#sa-wind-and-solar-market-observations)
+
+### [Seasonal generation and load](#seasonal-generation-and-load)
+<a name="seasonal-generation-and-load"></a>
 
 **Mean monthly generation (availability)** (MW, 2020 to 2024)
 
@@ -58,3 +92,7 @@ Below are the distributions of individual generator capacity factors:
 **Mean monthly load** (MW, 2020 to 2024)
 
 ![Mean monthly SA Load](./charts/sa_mean_monthly_load.png)
+
+[Back to section top](#sa-wind-and-solar-market-observations)
+
+[Back to top](#top)
