@@ -1,13 +1,13 @@
-import matplotlib.pyplot as plt, matplotlib as mpl
-import numpy as np, os, pandas as pd, seaborn as sns
+import numpy as np, os, pandas as pd
+import matplotlib.pyplot as plt, seaborn as sns
 from sqlalchemy import create_engine, text
 
 def python_setup(font_scale=2):
     '''Sets up NEM Review font and palette, and working directories.'''
 
-    # Set departmental font and palette
+    # Set departmental font
     sns.set(font="Aptos", font_scale=font_scale, style="white")
-    sns.set_palette(["#05213e", "#1f4994", "#00824e", "#77c267", "#d8e151", "#f7f9ee"])
+    plt.style.use("dark_background")
 
     # Set working directory
     working_dir = os.getcwd()

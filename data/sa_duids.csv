@@ -1,46 +1,46 @@
-DUID,Name,Technology,Latitude,Longitude
-ADPPV1,Adelaide Desalination Plant,Solar,-35.09662177,138.4872073
-ADPPV2,Adelaide Desalination Plant,Solar,-35.09662177,138.4872073
-ADPPV3,Adelaide Desalination Plant,Solar,-35.09662177,138.4872073
-BOWWPV1,Bolivar Waste Water Treatment,Solar,-34.77272664,138.5785
-BNGSF1,Bungala One Solar Farm,Solar,-32.42404599,137.8416102
-BNGSF2,Bungala Two Solar Farm,Solar,-32.40609452,137.8421936
-CNUNDAWF,Canunda,Wind,-37.70093928,140.3608781
-CATHROCK,Cathedral Rocks,Wind,-34.86519919,135.5935352
-CBWWPV1,Christies Beach Wastewater Treatment Plant,Solar,-35.12305728,138.4730527
-CLEMGPWF,Clements Gap Wind Farm,Wind,-33.49260397,138.1056282
-GSWF1A,Goyder South Wind Farm 1A,Wind,-33.79168017,138.9315646
-GSWF1B1,Goyder South Wind Farm 1B,Wind,-33.78543067,138.9734411
-NBHWF1,Hallett 4 North Brown Hill,Wind,-33.30834622,138.7315484
-BLUFF1,Hallett 5 The Bluff WF,Wind,-33.35930632,138.8036718
-HALLWF1,Hallett Stage 1 Brown Hill,Wind,-33.40470686,138.7282122
-HALLWF2,Hallett Stage 2 Hallett Hill,Wind,-33.55713966,138.8486357
-HVWWPV1,Happy Valley Reservoir,Solar,-35.05593521,138.5646531
-HDWF1,Hornsdale Wind Farm Stage 1,Wind,-33.06029484,138.5373955
-HDWF2,Hornsdale Wind Farm Stage 2,Wind,-33.06029484,138.5373955
-HDWF3,Hornsdale Wind Farm Stage 3,Wind,-33.06029484,138.5373955
-LKBONNY1,Lake Bonney 1 Wind Farm,Wind,-37.78287634,140.4059849
-LKBONNY2,Lake Bonney 2 Wind Farm,Wind,-37.78288918,140.4059977
-LKBONNY3,Lake Bonney 3 Wind Farm,Wind,-37.78289744,140.4059977
-LGAPWF1,Lincoln Gap Wind Farm - stage 1,Wind,-32.5429987,137.5507693
-LGAPWF2,Lincoln Gap Wind Farm - Stage 2,Wind,-32.54298977,137.5507275
-MAPS2PV1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),Solar,-34.85675574,139.1674642
-MAPS3PV1,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),Solar,-34.8495291,139.1332673
-MANNSF2,Mannum Solar Farm 2,Solar,-34.91621434,139.2653957
-MWPS1PV1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,Solar,-34.019581,139.6802772
-MWPS2PV1,Morgan To Whyalla Pipeline No 2 PS,Solar,-34.019581,139.6802772
-MWPS3PV1,Morgan To Whyalla Pipeline No 3 PS,Solar,-34.019581,139.6802772
-MWPS4PV1,Morgan To Whyalla Pipeline No 4 PS,Solar,-34.019581,139.6802772
-MTMILLAR,Mt Millar Wind Farm,Wind,-33.62537557,136.7039225
-MBPS2PV1,Murray Bridge - Onkaparinga Pipeline Pump 2,Solar,-35.09683107,139.2097406
-PAREPS1,Port Augusta Renewable Energy Park - Solar,Solar,-32.555133,137.8642216
-PAREPW1,Port Augusta Renewable Energy Park - Wind,Wind,-32.56878053,137.8488345
-SNOWNTH1,Snowtown S2 Wind Farm,Wind,-33.80665382,138.1284767
-SNOWSTH1,Snowtown S2 Wind Farm,Wind,-33.84356586,138.1292106
-SNOWTWN1,Snowtown Wind Farm,Wind,-33.709106,138.1416726
-STARHLWF,Starfish Hill,Wind,-35.57860641,138.1301923
-TBSF1,Tailem Bend - Solar,Solar,-35.27622452,139.4877852
-TB2SF1,Tailem Bend Stage 2 Solar Project,Solar,-35.26543497,139.4871015
-WATERLWF,Waterloo Wind Farm,Wind,-34.00086657,138.9110196
-WPWF,Wattle Point,Wind,-35.11157566,137.7212066
-WGWF1,Willogoleche Wind Farm,Wind,-33.44940042,138.7973295
+DUID,Name,Technology,Latitude,Longitude,Maximum capacity
+ADPPV1,Adelaide Desalination Plant,Solar,-35.09662177,138.4872073,19.0
+ADPPV2,Adelaide Desalination Plant,Solar,-35.09662177,138.4872073,
+ADPPV3,Adelaide Desalination Plant,Solar,-35.09662177,138.4872073,
+BOWWPV1,Bolivar Waste Water Treatment,Solar,-34.77272664,138.5785,6.0
+BNGSF1,Bungala One Solar Farm,Solar,-32.42404599,137.8416102,110.0
+BNGSF2,Bungala Two Solar Farm,Solar,-32.40609452,137.8421936,110.0
+CNUNDAWF,Canunda,Wind,-37.70093928,140.3608781,46.0
+CATHROCK,Cathedral Rocks,Wind,-34.86519919,135.5935352,66.0
+CBWWPV1,Christies Beach Wastewater Treatment Plant,Solar,-35.12305728,138.4730527,
+CLEMGPWF,Clements Gap Wind Farm,Wind,-33.49260397,138.1056282,57.0
+GSWF1A,Goyder South Wind Farm 1A,Wind,-33.79168017,138.9315646,201.0
+GSWF1B1,Goyder South Wind Farm 1B,Wind,-33.78543067,138.9734411,196.0
+NBHWF1,Hallett 4 North Brown Hill,Wind,-33.30834622,138.7315484,132.0
+BLUFF1,Hallett 5 The Bluff WF,Wind,-33.35930632,138.8036718,53.0
+HALLWF1,Hallett Stage 1 Brown Hill,Wind,-33.40470686,138.7282122,95.0
+HALLWF2,Hallett Stage 2 Hallett Hill,Wind,-33.55713966,138.8486357,71.0
+HVWWPV1,Happy Valley Reservoir,Solar,-35.05593521,138.5646531,8.0
+HDWF1,Hornsdale Wind Farm Stage 1,Wind,-33.06029484,138.5373955,102.0
+HDWF2,Hornsdale Wind Farm Stage 2,Wind,-33.06029484,138.5373955,102.0
+HDWF3,Hornsdale Wind Farm Stage 3,Wind,-33.06029484,138.5373955,109.0
+LKBONNY1,Lake Bonney 1 Wind Farm,Wind,-37.78287634,140.4059849,81.0
+LKBONNY2,Lake Bonney 2 Wind Farm,Wind,-37.78288918,140.4059977,159.0
+LKBONNY3,Lake Bonney 3 Wind Farm,Wind,-37.78289744,140.4059977,39.0
+LGAPWF1,Lincoln Gap Wind Farm - stage 1,Wind,-32.5429987,137.5507693,123.0
+LGAPWF2,Lincoln Gap Wind Farm - Stage 2,Wind,-32.54298977,137.5507275,85.0
+MAPS2PV1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),Solar,-34.85675574,139.1674642,13.0
+MAPS3PV1,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),Solar,-34.8495291,139.1332673,12.0
+MANNSF2,Mannum Solar Farm 2,Solar,-34.91621434,139.2653957,29.0
+MWPS1PV1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,Solar,-34.019581,139.6802772,4.0
+MWPS2PV1,Morgan To Whyalla Pipeline No 2 PS,Solar,-34.019581,139.6802772,4.0
+MWPS3PV1,Morgan To Whyalla Pipeline No 3 PS,Solar,-34.019581,139.6802772,6.0
+MWPS4PV1,Morgan To Whyalla Pipeline No 4 PS,Solar,-34.019581,139.6802772,4.0
+MTMILLAR,Mt Millar Wind Farm,Wind,-33.62537557,136.7039225,70.0
+MBPS2PV1,Murray Bridge - Onkaparinga Pipeline Pump 2,Solar,-35.09683107,139.2097406,10.0
+PAREPS1,Port Augusta Renewable Energy Park - Solar,Solar,-32.555133,137.8642216,77.0
+PAREPW1,Port Augusta Renewable Energy Park - Wind,Wind,-32.56878053,137.8488345,201.0
+SNOWNTH1,Snowtown S2 Wind Farm,Wind,-33.80665382,138.1284767,144.0
+SNOWSTH1,Snowtown S2 Wind Farm,Wind,-33.84356586,138.1292106,126.0
+SNOWTWN1,Snowtown Wind Farm,Wind,-33.709106,138.1416726,99.0
+STARHLWF,Starfish Hill,Wind,-35.57860641,138.1301923,35.0
+TBSF1,Tailem Bend - Solar,Solar,-35.27622452,139.4877852,95.0
+TB2SF1,Tailem Bend Stage 2 Solar Project,Solar,-35.26543497,139.4871015,87.0
+WATERLWF,Waterloo Wind Farm,Wind,-34.00086657,138.9110196,130.0
+WPWF,Wattle Point,Wind,-35.11157566,137.7212066,91.0
+WGWF1,Willogoleche Wind Farm,Wind,-33.44940042,138.7973295,119.0

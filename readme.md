@@ -14,7 +14,9 @@
   * [Size of fleet](#size-of-fleet)
   * [Capacity factors](#capacity-factors)
   * [Seasonal generation and load](#seasonal-generation-and-load)
-
+  * [Intraday generation and load](#intraday-generation-and-load)
+  * [Demand-weighted-average prices](#demand-weighted-average-prices)
+  * [Spot price exposure](#spot-price-exposure)
 ---
 
 ## [Initial modelling approach](#initial-modelling-approach)
@@ -35,7 +37,7 @@
 <a name="existing-generator-locations"></a>
 
 * 26 wind generators
-* 19 solar generators
+* 16 solar generators
 
 ![Existing SA generator locations](./charts/sa_generator_locations.png)
 
@@ -64,7 +66,7 @@
 ### [Size of fleet](#size-of-fleet)
 <a name="size-of-fleet"></a>
 
-**Maximum capacity** (MW, 2020 to 2024)
+**Maximum capacity** (MW, 2020 to 2024 – monthly changes)
 
 ![Size of SA wind and solar fleet](./charts/growth_of_sa_fleet.png)
 [Back to section top](#sa-wind-and-solar-market-observations)
@@ -85,13 +87,36 @@ Generator capacity factors are calculated from dispatched output rather than ava
 ### [Seasonal generation and load](#seasonal-generation-and-load)
 <a name="seasonal-generation-and-load"></a>
 
-**Mean monthly generation (availability)** (MW, 2020 to 2024)
+**Mean quarterly generation (availability)** (MW, 2020 to 2024)
 
-![Mean monthly SA availability](./charts/sa_mean_monthly_generation.png)
+![Mean quarterly SA availability](./charts/sa_mean_quarterly_generation.png)
 
-**Mean monthly load** (MW, 2020 to 2024)
+**Mean quarterly load** (MW, 2020 to 2024)
 
-![Mean monthly SA Load](./charts/sa_mean_monthly_load.png)
+![Mean quarterly SA Load](./charts/sa_mean_quarterly_load.png)
+
+[Back to section top](#sa-wind-and-solar-market-observations)
+
+### [Intraday generation and load](#intraday-generation-and-load)
+<a name="intraday-generation-and-load"></a>
+
+[Back to section top](#sa-wind-and-solar-market-observations)
+
+### [Demand-weighted-average prices](#demand-weighted-average-prices)
+<a name="demand-weighted-average-prices"></a>
+
+Demand-weighted-average prices are weighted by:
+* Total demand (or operational demand) for the SA market price
+* Availability for solar and wind generation
+
+**Quarterly demand-weighted-average prices** ($/MWh, 2020 to 2024)
+
+![Quarterly demand-weighted-average prices](./charts/dwa_prices_sa_quarterly.png)
+
+[Back to section top](#sa-wind-and-solar-market-observations)
+
+### [Spot price exposure](#spot-price-exposure)
+<a name="spot-price-exposure"></a>
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
