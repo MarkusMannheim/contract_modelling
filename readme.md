@@ -16,7 +16,7 @@
   * [Seasonal generation and load](#seasonal-generation-and-load)
   * [Intraday generation and load](#intraday-generation-and-load)
   * [Demand-weighted-average prices](#demand-weighted-average-prices)
-  * [Spot price exposure](#spot-price-exposure)
+
 ---
 
 ## [Initial modelling approach](#initial-modelling-approach)
@@ -120,11 +120,6 @@ Demand-weighted-average prices are weighted by:
 **Monthly demand-weighted-average prices** ($/MWh, 2020 to 2024)
 
 ![Monthly demand-weighted-average prices](./charts/dwa_prices_sa_monthly.png)
-
-[Back to section top](#sa-wind-and-solar-market-observations)
-
-### [Spot price exposure](#spot-price-exposure)
-<a name="spot-price-exposure"></a>
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
