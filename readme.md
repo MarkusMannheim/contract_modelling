@@ -31,7 +31,7 @@
   - **Existing wind**: all existing utility-scale SA wind stations, scaled to 250 MW
   - **Existing solar**: all existing utility-scale SA solar stations, scaled to 250 MW
   - **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park wind and solar profile, scaled to 250 MW each of wind/solar
-* Buyers' demand reflects the SA load profile
+* Buyers' demand reflects the SA-wide demand profile
 
 ### [Existing generator locations](#existing-generator-locations)
 <a name="existing-generator-locations"></a>
@@ -53,8 +53,8 @@
   * **Solar-battery hybrid**: A hypothetical station wind profile based on Bungala 2, scaled to 250 MW with 100 MW (200 MWh) battery
 * Hybrid stations' battery behaviour will be based on heuristics, prioritising defence of the station's contract position
 * Incorporate seasonal generation data from AEMO's Generation Information, with contracts tailored to varying maximum capacities
-* Expand modelling to all NEM regions
 * Synthesise generation and price data to test contracts against a wider range of outcomes
+* Expand modelling to all NEM regions
 
 [Back to top](#top)
 
@@ -87,18 +87,26 @@ Generator capacity factors are calculated from dispatched output rather than ava
 ### [Seasonal generation and load](#seasonal-generation-and-load)
 <a name="seasonal-generation-and-load"></a>
 
-**Mean quarterly generation (availability)** (MW, 2020 to 2024)
+**Mean monthly generation (availability)** (MW, 2020 to 2024)
 
-![Mean quarterly SA availability](./charts/sa_mean_quarterly_generation.png)
+![Mean monthly SA availability](./charts/sa_mean_monthly_generation.png)
 
-**Mean quarterly load** (MW, 2020 to 2024)
+**Mean monthly load** (MW, 2020 to 2024)
 
-![Mean quarterly SA Load](./charts/sa_mean_quarterly_load.png)
+![Mean monthly SA Load](./charts/sa_mean_monthly_load.png)
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
 ### [Intraday generation and load](#intraday-generation-and-load)
 <a name="intraday-generation-and-load"></a>
+
+**Mean intraday generation per 30-minute interval** (MW, 2020 to 2024)
+
+![Mean intraday generation (availability) per 30-minute interval](./charts/sa_mean_intraday_generation.png)
+
+**Mean intraday load per 30-minute interval** (MW, 2020 to 2024)
+
+![Mean intraday load per 30-minute interval](./charts/sa_mean_intraday_load.png)
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
@@ -109,9 +117,9 @@ Demand-weighted-average prices are weighted by:
 * Total demand (or operational demand) for the SA market price
 * Availability for solar and wind generation
 
-**Quarterly demand-weighted-average prices** ($/MWh, 2020 to 2024)
+**Monthly demand-weighted-average prices** ($/MWh, 2020 to 2024)
 
-![Quarterly demand-weighted-average prices](./charts/dwa_prices_sa_quarterly.png)
+![Monthly demand-weighted-average prices](./charts/dwa_prices_sa_monthly.png)
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
