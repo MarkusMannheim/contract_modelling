@@ -1,6 +1,6 @@
 # Ignore local large files
-data/*_largefile.csv
-!data/.gitkeep
+data/duid_data/**
+!data/duid_data/.gitkeep
 
 # Environment files
 .env
