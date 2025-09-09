@@ -41,6 +41,28 @@
 
 ![Existing SA generator locations](./charts/sa_generator_locations.png)
 
+### [Contract concepts](#contract-concepts)
+<a name="contract-concepts"></a>
+
+The contract concepts to be modelled, for suppliers and buyers, include:
+* Baseload swaps
+* Caps
+* Wind DWA swap
+* Solar DWA swap
+* Wind DWA revenue swap
+* Solar DWA revenue swap
+* ASX morning peak (6 to 9am)
+* ASX evening peak (4 to 9pm)
+* Day bulk (8am to 4pm)
+* Night bulk (8pm to 4am)
+* Shoulder bulk (4am to 8am, 4pm to 8pm)
+* Day cap (8am to 4pm)
+* Night cap (8pm to 4am)
+* Shoulder cap (4am to 8am, 4pm to 8pm)
+* Price spread
+* DWA-TWA spread (wind)
+* DWA-TWA spread (solar)
+
 [Back to top](#top)
 
 ---
