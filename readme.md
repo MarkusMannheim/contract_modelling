@@ -15,7 +15,7 @@
   * [Capacity factors](#capacity-factors)
   * [Seasonal generation and load](#seasonal-generation-and-load)
   * [Intraday generation and load](#intraday-generation-and-load)
-  * [Demand-weighted-average prices](#demand-weighted-average-prices)
+  * [Demand-weighted average prices](#demand-weighted-average-prices)
 
 ---
 
@@ -110,16 +110,16 @@ Generator capacity factors are calculated from dispatched output rather than ava
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
-### [Demand-weighted-average prices](#demand-weighted-average-prices)
+### [Demand-weighted average prices](#demand-weighted-average-prices)
 <a name="demand-weighted-average-prices"></a>
 
-Demand-weighted-average prices are weighted by:
+Demand-weighted average prices are weighted by:
 * Total demand (or operational demand) for the SA market price
 * Availability for solar and wind generation
 
-**Monthly demand-weighted-average prices** ($/MWh, 2020 to 2024)
+**Monthly demand-weighted average prices** ($/MWh, 2020 to 2024)
 
-![Monthly demand-weighted-average prices](./charts/dwa_prices_sa_monthly.png)
+![Monthly demand-weighted average prices](./charts/dwa_prices_sa_monthly.png)
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 

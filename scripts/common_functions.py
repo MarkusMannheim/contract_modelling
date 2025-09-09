@@ -1,5 +1,8 @@
-import numpy as np, os, pandas as pd
-import matplotlib.pyplot as plt, seaborn as sns
+import numpy as np
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 from sqlalchemy import create_engine, text
 
 def python_setup(font_scale=2):
@@ -47,3 +50,11 @@ def get_mms_data(script_name, arguments=None):
     except Exception as e:
         print(f"Database error occurred: {e}")
         return None
+    
+def save_figure(fig, filename, charts_dir):
+    """Save a matplotlib figure to the charts directory."""
+    fig.savefig(
+        os.path.join(charts_dir, f"{filename}.png"),
+        bbox_inches="tight",
+        dpi=300)
+    plt.close(fig)
