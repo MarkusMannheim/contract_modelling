@@ -122,7 +122,7 @@ Generator capacity factors are calculated from dispatched output rather than ava
 ### [Intraday generation and load](#intraday-generation-and-load)
 <a name="intraday-generation-and-load"></a>
 
-**Mean intraday generation per 30-minute interval** (MW, 2020 to 2024)
+**Mean intraday generation (availability) per 30-minute interval** (MW, 2020 to 2024)
 
 ![Mean intraday generation (availability) per 30-minute interval](./charts/sa_mean_intraday_generation.png)
 
