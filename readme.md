@@ -15,7 +15,7 @@
   * [Capacity factors](#capacity-factors)
   * [Seasonal generation and load](#seasonal-generation-and-load)
   * [Intraday generation and load](#intraday-generation-and-load)
-  * [Demand-weighted average prices](#demand-weighted-average-prices)
+  * [Volume-weighted average prices](#volume-weighted-average-prices)
 
 ---
 
@@ -26,7 +26,7 @@
 <a name="data-profiles"></a>
 
 * All contract parties (suppliers and buyers) are in the South Australian market
-* Generation and price profiles are based on historic SA data (5 years of data: 2020 to 2024)
+* Generation and price profiles are based on 5 years of historic SA data (2020 to 2024)
 * Suppliers include:
   - **Existing wind**: all existing utility-scale SA wind stations, scaled to 250 MW
   - **Existing solar**: all existing utility-scale SA solar stations, scaled to 250 MW
@@ -132,16 +132,16 @@ Generator capacity factors are calculated from dispatched output rather than ava
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
-### [Demand-weighted average prices](#demand-weighted-average-prices)
-<a name="demand-weighted-average-prices"></a>
+### [Volume-weighted average prices](#demand-weighted-average-prices)
+<a name="volume-weighted-average-prices"></a>
 
-Demand-weighted average prices are weighted by:
+Volume-weighted average prices are weighted by:
 * Total demand (or operational demand) for the SA market price
 * Availability for solar and wind generation
 
-**Monthly demand-weighted average prices** ($/MWh, 2020 to 2024)
+**Monthly volume-weighted average prices** ($/MWh, 2020 to 2024)
 
-![Monthly demand-weighted average prices](./charts/dwa_prices_sa_monthly.png)
+![Monthly volume-weighted average prices](./charts/dwa_prices_sa_monthly.png)
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 
