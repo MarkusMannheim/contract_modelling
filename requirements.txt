@@ -2,7 +2,9 @@ ipykernel
 matplotlib
 numpy
 os
+openpyxl
 pandas
+pymssql
 seaborn
 sqlalchemy
 statsmodels
