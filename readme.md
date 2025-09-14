@@ -76,7 +76,7 @@ The contract concepts to be modelled, for suppliers and buyers, include:
 * Hybrid stations' battery behaviour will be based on heuristics, prioritising defence of the station's contract position
 * Incorporate seasonal generation data from AEMO's Generation Information, with contracts tailored to varying maximum capacities
 * Synthesise generation and price data to test contracts against a wider range of outcomes
-* Expand modelling to all NEM regions
+* Incorporate all NEM regions
 
 [Back to top](#top)
 
@@ -96,7 +96,7 @@ The contract concepts to be modelled, for suppliers and buyers, include:
 ### [Capacity factors](#capacity-factors)
 <a name="capacity-factors"></a>
 
-Generator capacity factors are calculated from dispatched output rather than availability. The aggregate fleet capacity factors over the 5 years analysed are:
+Generator capacity factors are calculated from dispatched output (net of curtailment). The aggregate fleet capacity factors over the 5 years analysed are:
 * Solar: **19.4%**
 * Wind: **30.6%**
 
@@ -109,7 +109,7 @@ Generator capacity factors are calculated from dispatched output rather than ava
 ### [Seasonal generation and load](#seasonal-generation-and-load)
 <a name="seasonal-generation-and-load"></a>
 
-**Mean monthly generation (availability)** (MW, 2020 to 2024)
+**Mean monthly generation** (MW, 2020 to 2024)
 
 ![Mean monthly SA availability](./charts/sa_mean_monthly_generation.png)
 
@@ -122,9 +122,9 @@ Generator capacity factors are calculated from dispatched output rather than ava
 ### [Intraday generation and load](#intraday-generation-and-load)
 <a name="intraday-generation-and-load"></a>
 
-**Mean intraday generation (availability) per 30-minute interval** (MW, 2020 to 2024)
+**Mean intraday generation per 30-minute interval** (MW, 2020 to 2024)
 
-![Mean intraday generation (availability) per 30-minute interval](./charts/sa_mean_intraday_generation.png)
+![Mean intraday generation per 30-minute interval](./charts/sa_mean_intraday_generation.png)
 
 **Mean intraday load per 30-minute interval** (MW, 2020 to 2024)
 
@@ -136,8 +136,8 @@ Generator capacity factors are calculated from dispatched output rather than ava
 <a name="volume-weighted-average-prices"></a>
 
 Volume-weighted average prices are weighted by:
-* Total demand (or operational demand) for the SA market price
-* Availability for solar and wind generation
+* Total demand (operational demand) for the SA market price
+* Dispatched output (net of curtailment) for solar and wind generation
 
 **Monthly volume-weighted average prices** ($/MWh, 2020 to 2024)
 
