@@ -29,11 +29,11 @@ def get_mms_data(script_name, arguments=None):
     Returns the data in a dataframe.'''
 
     # Database credentials    
-    server = os.getenv("DB_SERVER")
-    port = os.getenv("DB_PORT")
-    database = os.getenv("DB_DATABASE")
-    user = os.getenv("DB_USER")
-    password = os.getenv("DB_PASSWORD")
+    server = os.getenv("GR_SERVER")
+    port = os.getenv("GR_PORT")
+    database = os.getenv("GR_DATABASE")
+    user = os.getenv("GR_USER")
+    password = os.getenv("GR_PASSWORD")
     database_url = f"mssql+pymssql://{user}:{password}@{server}:{port}/{database}"
 
     try:
