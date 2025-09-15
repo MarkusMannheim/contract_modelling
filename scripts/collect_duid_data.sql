@@ -1,0 +1,41 @@
+-- DUID output, availability, max capacity
+WITH
+-- First create a CTE to split DUID list
+DUID_CTE AS (
+    SELECT DISTINCT value AS DUID
+    FROM STRING_SPLIT(REPLACE(REPLACE(:duid_list, '''', ''), ' ', ''), ',')
+    WHERE LEN(value) > 0
+),
+-- Get the latest capacity for each DUID
+LATEST_CAPACITY AS (
+    SELECT
+        dd.DUID,
+        dd.MAXCAPACITY,
+        dd.EFFECTIVEDATE
+    FROM DUDETAIL dd
+    INNER JOIN DUID_CTE dc ON dd.DUID = dc.DUID
+    WHERE dd.AUTHORISEDDATE IS NOT NULL
+      AND dd.EFFECTIVEDATE <= DATEADD(DAY, 1, CONVERT(DATETIME, :end_date))
+      AND dd.EFFECTIVEDATE = (
+          SELECT MAX(dd2.EFFECTIVEDATE)
+          FROM DUDETAIL dd2
+          WHERE dd2.DUID = dd.DUID
+            AND dd2.AUTHORISEDDATE IS NOT NULL
+            AND dd2.EFFECTIVEDATE <= DATEADD(DAY, 1, CONVERT(DATETIME, :end_date))
+      )
+)
+SELECT
+    DATEADD(MINUTE, -5, dl.SETTLEMENTDATE) AS Interval,
+    dl.DUID,
+    (dl.INITIALMW + dl.TOTALCLEARED) / 2.0 AS Output,
+    dl.AVAILABILITY AS Availability,
+    lc.MAXCAPACITY AS 'Maximum capacity'
+FROM DISPATCHLOAD dl
+INNER JOIN DISPATCHCASESOLUTION dcs
+    ON dl.SETTLEMENTDATE = dcs.SETTLEMENTDATE
+    AND dl.INTERVENTION = dcs.INTERVENTION
+INNER JOIN DUID_CTE dc ON dl.DUID = dc.DUID
+LEFT JOIN LATEST_CAPACITY lc ON dl.DUID = lc.DUID
+WHERE dl.SETTLEMENTDATE > CONVERT(DATETIME, :start_date)
+  AND dl.SETTLEMENTDATE <= DATEADD(DAY, 1, CONVERT(DATETIME, :end_date))
+ORDER BY Interval, DUID;

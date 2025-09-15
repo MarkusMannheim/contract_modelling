@@ -25,15 +25,15 @@
 ### [Data profiles](#data-profiles)
 <a name="data-profiles"></a>
 
-* All contract parties (suppliers and buyers) are in the South Australian market
-* Generation and price profiles are based on 5 years of historic SA data (2020 to 2024)
+* Contract parties (suppliers and buyers) are from each NEM region
+* Generation and price profiles are based on 5 years of historic data (2020 to 2024)
 * Suppliers include:
-  - **Existing wind**: all existing utility-scale SA wind stations, scaled to 250 MW
-  - **Existing solar**: all existing utility-scale SA solar stations, scaled to 250 MW
+  - **Existing wind**: all existing utility-scale wind stations that were operating on 1 January 2020, scaled to 250 MW
+  - **Existing solar**: all existing utility-scale solar stations that were operating on 1 January 2020, scaled to 250 MW
   - **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park wind and solar profile, scaled to 250 MW each of wind/solar
-* Buyers' demand reflects the SA-wide demand profile
+* Buyer's demand reflects the demand profile of the buyer's region
 
-### [Existing generator locations](#existing-generator-locations)
+### [Existing SA generator locations](#existing-generator-locations)
 <a name="existing-generator-locations"></a>
 
 * 26 wind generators
