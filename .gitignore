@@ -1,4 +1,4 @@
-# Ignore local large files
+# Ignore large files
 *.parquet
 
 # Environment files
@@ -6,6 +6,7 @@
 .venv/
 
 # Jupyter notebooks
+.vscode/
 .ipynb_checkpoints/
 
 # Python cache

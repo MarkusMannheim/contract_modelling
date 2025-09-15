@@ -11,7 +11,7 @@
   * [Existing generators](#existing-generators)
 * [Potential modelling updates](#potential-modelling-updates)
 * [Wind and solar market observations](#wind-and-solar-market-observations)
-  * [Size of fleet](#size-of-fleet)
+  * [Size of fleets](#size-of-fleets)
   * [Capacity factors](#capacity-factors)
   * [Seasonal generation and load](#seasonal-generation-and-load)
   * [Intraday generation and load](#intraday-generation-and-load)
@@ -36,7 +36,7 @@
 ### [Existing generators](#existing-generators)
 <a name="existing-generators"></a>
 
-78 generators in the NEM meet the above criteria for this analysis:
+78 generators in the NEM meet the above criteria (i.e. 5 full years of generation):
 
 | Region | Wind | Solar |
 |-|-|-|
@@ -54,15 +54,8 @@ The following contract concepts, for suppliers and buyers, will be modelled (thi
 * Caps
 * Wind DWA swap
 * Solar DWA swap
-* Wind DWA revenue swap
-* Solar DWA revenue swap
-* Wind ToD (8pm to 6am)
-* Solar ToD (10am to 4pm)
-* ASX morning peak (6am to 9am)
-* ASX evening peak (4pm to 9pm)
-* Price spread
-* Wind DWA-TWA spread
-* Solar DWA-TWA spread
+* ToD blocks (including ASX morning and evening peaks)
+* DWA-TWA spreads
 
 [Back to top](#top)
 
@@ -86,13 +79,13 @@ The following contract concepts, for suppliers and buyers, will be modelled (thi
 ## [Wind and solar market observations](#wind-and-solar-market-observations)
 <a name="wind-and-solar-market-observations"></a>
 
-### [Size of fleet](#size-of-fleet)
-<a name="size-of-fleet"></a>
+### [Size of fleets](#size-of-fleets)
+<a name="size-of-fleets"></a>
 
 **Maximum capacity** (MW, 2020 to 2024 – monthly changes)
 
-![Size of wind and solar fleet](./charts/growth_of_fleet.png)
-[Back to section top](#sa-wind-and-solar-market-observations)
+![Size of wind and solar fleets](./charts/growth_of_fleet.png)
+[Back to section top](#wind-and-solar-market-observations)
 
 ### [Capacity factors](#capacity-factors)
 <a name="capacity-factors"></a>
@@ -110,45 +103,45 @@ Generator capacity factors are calculated from dispatched output (net of curtail
 
 ![Distribution of capacity factors](./charts/fleet_capacity_factors.png)
 
-[Back to section top](#sa-wind-and-solar-market-observations)
+[Back to section top](#wind-and-solar-market-observations)
 
 ### [Seasonal generation and load](#seasonal-generation-and-load)
 <a name="seasonal-generation-and-load"></a>
 
-**Mean monthly generation** (MW, 2020 to 2024)
+**Mean quarterly generation** (MW, 2020 to 2024)
 
-![Mean monthly SA availability](./charts/sa_mean_monthly_generation.png)
+![Mean quarterly generation](./charts/mean_quarterly_generation.png)
 
-**Mean monthly load** (MW, 2020 to 2024)
+**Mean quarterly load** (MW, 2020 to 2024)
 
-![Mean monthly SA Load](./charts/sa_mean_monthly_load.png)
+![Mean quarterly Load](./charts/mean_quarterly_load.png)
 
-[Back to section top](#sa-wind-and-solar-market-observations)
+[Back to section top](#wind-and-solar-market-observations)
 
 ### [Intraday generation and load](#intraday-generation-and-load)
 <a name="intraday-generation-and-load"></a>
 
 **Mean intraday generation per 30-minute interval** (MW, 2020 to 2024)
 
-![Mean intraday generation per 30-minute interval](./charts/sa_mean_intraday_generation.png)
+![Mean intraday generation per 30-minute interval](./charts/mean_intraday_generation.png)
 
 **Mean intraday load per 30-minute interval** (MW, 2020 to 2024)
 
-![Mean intraday load per 30-minute interval](./charts/sa_mean_intraday_load.png)
+![Mean intraday load per 30-minute interval](./charts/mean_intraday_load.png)
 
-[Back to section top](#sa-wind-and-solar-market-observations)
+[Back to section top](#wind-and-solar-market-observations)
 
-### [Volume-weighted average prices](#demand-weighted-average-prices)
+### [Volume-weighted average prices](#volume-weighted-average-prices)
 <a name="volume-weighted-average-prices"></a>
 
 Volume-weighted average prices are weighted by:
 * Total demand (operational demand) for the SA market price
 * Dispatched output (net of curtailment) for solar and wind generation
 
-**Monthly volume-weighted average prices** ($/MWh, 2020 to 2024)
+**Quarterly volume-weighted average prices** ($/MWh, 2020 to 2024)
 
-![Monthly volume-weighted average prices](./charts/dwa_prices_sa_monthly.png)
+![Quarterly volume-weighted average prices](./charts/vwa_prices_quarterly.png)
 
-[Back to section top](#sa-wind-and-solar-market-observations)
+[Back to section top](#wind-and-solar-market-observations)
 
 [Back to top](#top)
