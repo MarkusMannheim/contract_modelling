@@ -1,6 +1,5 @@
 # Ignore local large files
-data/duid_data/**
-!data/duid_data/.gitkeep
+*.parquet
 
 # Environment files
 .env

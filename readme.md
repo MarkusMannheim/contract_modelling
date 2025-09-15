@@ -8,9 +8,9 @@
 
 * [Initial modelling approach](#initial-modelling-approach)
   * [Data profiles](#data-profiles)
-  * [Existing generator locations](#existing-generator-locations)
+  * [Existing generators](#existing-generators)
 * [Potential modelling updates](#potential-modelling-updates)
-* [SA wind and solar market observations](#sa-wind-and-solar-market-observations)
+* [Wind and solar market observations](#wind-and-solar-market-observations)
   * [Size of fleet](#size-of-fleet)
   * [Capacity factors](#capacity-factors)
   * [Seasonal generation and load](#seasonal-generation-and-load)
@@ -33,35 +33,36 @@
   - **Existing wind-solar hybrid**: Port Augusta Renewable Energy Park wind and solar profile, scaled to 250 MW each of wind/solar
 * Buyer's demand reflects the demand profile of the buyer's region
 
-### [Existing SA generator locations](#existing-generator-locations)
-<a name="existing-generator-locations"></a>
+### [Existing generators](#existing-generators)
+<a name="existing-generators"></a>
 
-* 26 wind generators
-* 16 solar generators
+78 generators in the NEM meet the above criteria for this analysis:
 
-![Existing SA generator locations](./charts/sa_generator_locations.png)
+| Region | Wind | Solar |
+|-|-|-|
+| NSW | 10 | 12 |
+| QLD | 2 | 19 |
+| SA | 16 | 3 |
+| VIC | 11 | 5 |
 
 ### [Contract concepts](#contract-concepts)
 <a name="contract-concepts"></a>
 
-The contract concepts to be modelled, for suppliers and buyers, include:
+The following contract concepts, for suppliers and buyers, will be modelled (this list will likely expand):
+* PPAs
 * Baseload swaps
 * Caps
 * Wind DWA swap
 * Solar DWA swap
 * Wind DWA revenue swap
 * Solar DWA revenue swap
-* ASX morning peak (6 to 9am)
-* ASX evening peak (4 to 9pm)
-* Day bulk (8am to 4pm)
-* Night bulk (8pm to 4am)
-* Shoulder bulk (4am to 8am, 4pm to 8pm)
-* Day cap (8am to 4pm)
-* Night cap (8pm to 4am)
-* Shoulder cap (4am to 8am, 4pm to 8pm)
+* Wind ToD (8pm to 6am)
+* Solar ToD (10am to 4pm)
+* ASX morning peak (6am to 9am)
+* ASX evening peak (4pm to 9pm)
 * Price spread
-* DWA-TWA spread (wind)
-* DWA-TWA spread (solar)
+* Wind DWA-TWA spread
+* Solar DWA-TWA spread
 
 [Back to top](#top)
 
@@ -82,27 +83,32 @@ The contract concepts to be modelled, for suppliers and buyers, include:
 
 ---
 
-## [SA wind and solar market observations](#sa-wind-and-solar-market-observations)
-<a name="sa-wind-and-solar-market-observations"></a>
+## [Wind and solar market observations](#wind-and-solar-market-observations)
+<a name="wind-and-solar-market-observations"></a>
 
 ### [Size of fleet](#size-of-fleet)
 <a name="size-of-fleet"></a>
 
 **Maximum capacity** (MW, 2020 to 2024 – monthly changes)
 
-![Size of SA wind and solar fleet](./charts/growth_of_sa_fleet.png)
+![Size of wind and solar fleet](./charts/growth_of_fleet.png)
 [Back to section top](#sa-wind-and-solar-market-observations)
 
 ### [Capacity factors](#capacity-factors)
 <a name="capacity-factors"></a>
 
 Generator capacity factors are calculated from dispatched output (net of curtailment). The aggregate fleet capacity factors over the 5 years analysed are:
-* Solar: **19.4%**
-* Wind: **30.6%**
+
+| Region | Wind | Solar |
+|-|-|-|
+| NSW | 29.4% | 20.9% |
+| QLD | 30.3% | 20.6% |
+| SA | 30.6% | 19.4% |
+| VIC | 26.7% | 18.8% |
 
 **Distributions of generator capacity factors**
 
-![Distribution of capacity factors](./charts/sa_fleet_capacity_factors.png)
+![Distribution of capacity factors](./charts/fleet_capacity_factors.png)
 
 [Back to section top](#sa-wind-and-solar-market-observations)
 

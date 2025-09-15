@@ -1,9 +1,9 @@
 ipykernel
 matplotlib
 numpy
-os
 openpyxl
 pandas
+pyarrow
 pymssql
 seaborn
 sqlalchemy
