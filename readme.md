@@ -9,6 +9,8 @@
 * [Initial modelling approach](#initial-modelling-approach)
   * [Data profiles](#data-profiles)
   * [Existing generators](#existing-generators)
+  * [Contract concepts](#contract-concepts)
+  * [Costs and financing assumptions](#costs-and-financing-assumptions)
 * [Potential modelling updates](#potential-modelling-updates)
 * [Wind and solar market observations](#wind-and-solar-market-observations)
   * [Size of fleets](#size-of-fleets)
@@ -48,14 +50,46 @@
 ### [Contract concepts](#contract-concepts)
 <a name="contract-concepts"></a>
 
-The following contract concepts, for suppliers and buyers, will be modelled (this list will likely expand):
-* PPAs
-* Baseload swaps
-* Caps
-* Wind DWA swap
-* Solar DWA swap
-* ToD blocks (including ASX morning and evening peaks)
-* DWA-TWA spreads
+The following contract concepts will be modelled (this list will likely expand):
+* Run of plant PPA
+* TWA (baseload) swap
+* $300 cap
+* Reference ex-post DWA swap
+* Reference ex-post revenue swap
+* Fixed shape DWA price swap
+* ToD block price swap (aligned with ASX morning and evening peaks)
+* DWA-TWA spread
+
+### [Costs and financing assumptions](#costs-and-financing-assumptions)
+<a name="costs-and-financing-assumptions"></a>
+
+Cost assumptions are sourced from [CSIRO's GenCost 2024-25](https://www.csiro.au/en/research/technology-space/energy/Electricity-transition/GenCost) ('current policies' scenario, 2024 prices). Finance assumptions are variables, which can be adjusted.
+
+#### Costs
+
+| | Wind | Solar |
+|-|-|-|
+| Capex (\$/kW) | $3,351 | $1,463 |
+| Economic life (years) | 25 | 30 |
+| FOM (\$/kW/year) | $28 | $12 |
+
+#### Financing
+
+| Metric | Value |
+|-|-|
+| Loan | 65% |
+| Equity | 35% |
+| Loan rate | 5% |
+| Equity rate | 15% |
+| WACC | 8.5% |
+
+#### Annualised costs ($/MW/year)
+
+| Wind | Solar |
+|-|-|
+| $355,432 | $148,133 |
+
+
 
 [Back to top](#top)
 
