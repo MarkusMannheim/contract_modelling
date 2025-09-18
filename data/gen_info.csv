@@ -1,179 +1,179 @@
-DUID,Region,Name,Technology,Maximum capacity,Late start
-ADPPV1,SA,Adelaide Desalination Plant,Solar,19.0,True
-ARWF1,VIC,Ararat Wind Farm,Wind,241.0,False
-AVLSF1,NSW,Avonlie Solar Farm,Solar,190.0,True
-BALDHWF1,VIC,Bald Hills Wind Farm,Wind,106.0,False
-BANGOWF1,NSW,Bango 973 Wind Farm,Wind,155.0,True
-BANGOWF2,NSW,Bango 999 Wind Farm,Wind,82.0,True
-BANN1,VIC,Bannerton Solar Park,Solar,88.0,False
-BRYB1WF1,VIC,Berrybank Wind Farm,Wind,175.0,True
-BRYB2WF2,VIC,Berrybank Wind Farm,Wind,105.0,True
-BERYLSF1,NSW,Beryl Solar Farm,Solar,87.0,False
-BLUEGSF1,QLD,Bluegrass Solar Farm,Solar,148.0,True
-BOCORWF1,NSW,Boco Rock Wind Farm,Wind,113.0,False
-BODWF1,NSW,Bodangora Wind Farm,Wind,111.0,False
-BOWWPV1,SA,Bolivar Waste Water Treatment,Solar,6.0,True
-BOMENSF1,NSW,Bomen Solar Farm,Solar,100.0,True
-BROKENH1,NSW,Broken Hill Solar Plant,Solar,53.0,False
-BULGANA1,VIC,Bulgana Green Power Hub - Wind Farm,Wind,204.0,True
-BNGSF1,SA,Bungala One Solar Farm,Solar,110.0,False
-BNGSF2,SA,Bungala Two Solar Farm,Solar,110.0,False
-CNUNDAWF,SA,Canunda,Wind,46.0,True
-CATHROCK,SA,Cathedral Rocks,Wind,66.0,True
-CHYTWF1,VIC,Cherry Tree Wind Farm,Wind,57.0,True
-CHILDSF1,QLD,Childers Solar Farm,Solar,56.0,False
-CLARESF1,QLD,Clare Solar Farm,Solar,100.0,False
-CLRKCWF1,QLD,Clarke Creek Wind Farm,Wind,167.0,True
-CLEMGPWF,SA,Clements Gap Wind Farm,Wind,57.0,False
-CLERMSF1,QLD,Clermont Solar Farm,Solar,75.0,False
-COHUNSF1,VIC,Cohuna Solar Farm,Solar,27.0,True
-COLEASF1,NSW,Coleambally Solar Farm,Solar,150.0,False
-COLWF01,NSW,Collector,Wind,219.0,True
-CSPVPS1,QLD,Collinsville PV,Solar,40.0,False
-COLUMSF1,QLD,Columboola Solar Farm,Solar,162.0,True
-COOPGWF1,QLD,Coopers Gap Wind Farm,Wind,440.0,False
-CRWASF1,NSW,Corowa Solar Farm,Solar,30.0,True
-CROOKWF2,NSW,Crookwell 2 Wind Farm,Wind,91.0,False
-CROOKWF3,NSW,Crookwell 3 Wind Farm,Wind,56.0,True
-CROWLWF1,VIC,Crowlands Wind Farm,Wind,79.0,False
-CRURWF1,NSW,Crudine Ridge Wind Farm,Wind,138.0,True
-DDSF1,QLD,Darling Downs Solar Farm,Solar,108.0,False
-DARLSF1,NSW,Darlington Point Solar Farm,Solar,275.0,True
-DAYDSF1,QLD,Daydream Solar Farm,Solar,150.0,False
-DULAWF1,QLD,Dulacca Wind Farm,Wind,173.0,True
-DUNDWF1,VIC,Dundonnell Wind Farm,Wind,168.0,True
-DUNDWF2,VIC,Dundonnell Wind Farm,Wind,46.0,True
-DUNDWF3,VIC,Dundonnell Wind Farm,Wind,122.0,True
-EDENVSF1,QLD,Edenvale Solar Park,Solar,146.0,True
-ELAINWF1,VIC,Elaine Wind Farm,Wind,82.0,True
-EMERASF1,QLD,Emerald Solar Park,Solar,72.0,False
-FINLYSF1,NSW,Finley Solar Farm,Solar,133.0,False
-FLYCRKWF,NSW,Flyers Creek Wind Farm,Wind,140.0,True
-GANGARR1,QLD,Gangarri Solar Farm,Solar,120.0,True
-GANNSF1,VIC,Gannawarra Solar Farm,Solar,50.0,False
-GIRGSF,VIC,Girgarre Solar Farm,Solar,76.0,True
-GLENSF1,VIC,Glenrowan Solar Farm,Solar,102.0,True
-GLRWNSF1,VIC,Glenrowan West Solar Farm,Solar,110.0,True
-GPWFEST1,VIC,Golden Plains Wind Farm East,Wind,240.0,True
-GPWFEST2,VIC,Golden Plains Wind Farm East,Wind,253.0,True
-GPWFEST3,VIC,Golden Plains Wind Farm East,Wind,240.0,True
-GOONSF1,NSW,Goonumbla Solar Farm,Solar,69.0,True
-GSWF1A,SA,Goyder South Wind Farm 1A,Wind,201.0,True
-GSWF1B1,SA,Goyder South Wind Farm 1B,Wind,196.0,True
-GULLRSF1,NSW,Gullen Range Solar Farm,Solar,10.0,False
-GULLRWF1,NSW,Gullen Range Wind Farm,Wind,161.0,False
-GULLRWF2,NSW,Gullen Range Wind Farm 2,Wind,107.0,True
-GNNDHSF1,NSW,Gunnedah Solar Farm,Solar,110.0,True
-GUNNING1,NSW,Gunning Wind Farm,Wind,47.0,False
-NBHWF1,SA,Hallett 4 North Brown Hill,Wind,132.0,False
-BLUFF1,SA,Hallett 5 The Bluff WF,Wind,53.0,False
-HALLWF1,SA,Hallett Stage 1 Brown Hill,Wind,95.0,False
-HALLWF2,SA,Hallett Stage 2 Hallett Hill,Wind,71.0,False
-HAMISF1,QLD,Hamilton Solar Farm,Solar,56.0,False
-HVWWPV1,SA,Happy Valley Reservoir,Solar,8.0,True
-HAUGHT11,QLD,Haughton Solar Farm Stage 1,Solar,100.0,False
-HD1WF1,VIC,Hawkesdale Wind Farm,Wind,89.0,True
-HAYMSF1,QLD,Hayman Solar Farm,Solar,50.0,False
-HILLSTN1,NSW,Hillston Sun Farm,Solar,85.0,True
-HDWF1,SA,Hornsdale Wind Farm Stage 1,Wind,102.0,False
-HDWF2,SA,Hornsdale Wind Farm Stage 2,Wind,102.0,False
-HDWF3,SA,Hornsdale Wind Farm Stage 3,Wind,109.0,False
-JEMALNG1,NSW,Jemalong Solar,Solar,50.0,True
-JUNEESF1,NSW,Junee Solar Farm,Solar,30.0,True
-KABANWF1,QLD,Kaban Wind Farm,Wind,152.0,True
-KARSF1,VIC,Karadoc Solar Farm,Solar,90.0,False
-KEPSF1,QLD,Kennedy Energy Park - Phase 1 - Solar,Solar,15.0,True
-KEPWF1,QLD,Kennedy Energy Park - Phase 1 - Wind,Wind,43.0,True
-KIAMSF1,VIC,Kiamal Solar Farm - Stage 1,Solar,200.0,True
-KIATAWF1,VIC,Kiata Wind Farm,Wind,31.0,False
-KSP1,QLD,Kidston Solar Project Phase One 50MW,Solar,47.0,False
-KINGASF1,QLD,Kingaroy Solar Farm,Solar,40.0,True
-LKBONNY1,SA,Lake Bonney 1 Wind Farm,Wind,81.0,True
-LKBONNY2,SA,Lake Bonney 2 Wind Farm,Wind,159.0,False
-LKBONNY3,SA,Lake Bonney 3 Wind Farm,Wind,39.0,False
-LILYSF1,QLD,Lilyvale Solar Farm,Solar,100.0,False
-LIMOSF11,NSW,Limondale Solar Farm 1,Solar,220.0,True
-LIMOSF21,NSW,Limondale Solar Farm 2,Solar,29.0,False
-LGAPWF1,SA,Lincoln Gap Wind Farm - stage 1,Wind,123.0,False
-LGAPWF2,SA,Lincoln Gap Wind Farm - Stage 2,Wind,85.0,True
-MACARTH1,VIC,Macarthur Wind Farm,Wind,420.0,False
-MANSLR1,NSW,Manildra Solar Farm,Solar,46.0,False
-MAPS2PV1,SA,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),Solar,13.0,True
-MAPS3PV1,SA,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),Solar,12.0,True
-MANNSF2,SA,Mannum Solar Farm 2,Solar,29.0,True
-MARYRSF1,QLD,Maryrorough Solar Farm,Solar,27.0,True
-METZSF1,NSW,Metz Solar Farm,Solar,115.0,True
-MIDDLSF1,QLD,Middlemount Solar Farm,Solar,26.0,True
-MOKOSF1,VIC,Mokoan Solar Farm (LightsourceBP),Solar,46.0,True
-MOLNGSF1,NSW,Molong Solar Farm,Solar,30.0,True
-MOORAWF1,VIC,Moorabool Wind Farm,Wind,305.0,True
-MOREESF1,NSW,Moree Solar Farm,Solar,56.0,False
-MWPS1PV1,SA,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,Solar,4.0,True
-MWPS2PV1,SA,Morgan To Whyalla Pipeline No 2 PS,Solar,4.0,True
-MWPS3PV1,SA,Morgan To Whyalla Pipeline No 3 PS,Solar,6.0,True
-MWPS4PV1,SA,Morgan To Whyalla Pipeline No 4 PS,Solar,4.0,True
-MRTLSWF1,VIC,Mortlake South Wind Farm,Wind,153.0,True
-MEWF1,QLD,Mount Emerald,Wind,178.0,False
-MOUSF1,QLD,Moura Solar Farm,Solar,82.0,True
-MTGELWF1,VIC,Mt Gellibrand Wind Farm,Wind,132.0,False
-MERCER01,VIC,Mt Mercer Wind Farm,Wind,131.0,False
-MTMILLAR,SA,Mt Millar Wind Farm,Wind,70.0,True
-MUWAWF1,VIC,Murra Warra Wind Farm - stage 1,Wind,225.0,False
-MUWAWF2,VIC,Murra Warra Wind Farm - stage 2,Wind,203.0,True
-MBPS2PV1,SA,Murray Bridge - Onkaparinga Pipeline Pump 2,Solar,10.0,True
-NEVERSF1,NSW,Nevertire Solar Farm,Solar,105.0,False
-NEWENSF1,NSW,New England Solar Farm,Solar,200.0,True
-NEWENSF2,NSW,New England Solar Farm,Solar,200.0,True
-NUMURSF1,VIC,Numurkah Solar Farm,Solar,100.0,False
-NYNGAN1,NSW,Nyngan Solar Plant,Solar,102.0,False
-OAKEY2SF,QLD,Oakey 2 Solar Farm,Solar,55.0,False
-OAKEY1SF,QLD,Oakey Solar Farm,Solar,25.0,False
-OAKLAND1,VIC,Oaklands Hill Wind Farm,Wind,63.0,False
-PARSF1,NSW,Parkes Solar Farm,Solar,50.0,False
-PAREPS1,SA,Port Augusta Renewable Energy Park - Solar,Solar,77.0,True
-PAREPW1,SA,Port Augusta Renewable Energy Park - Wind,Wind,201.0,True
-RRSF1,QLD,Ross River Solar Farm,Solar,116.0,False
-RUGBYR1,QLD,Rugby Run Solar Farm,Solar,65.0,False
-RYANCWF1,VIC,Ryan Corner Wind Farm,Wind,205.0,True
-RYEPARK1,NSW,Rye Park Wind Farm,Wind,384.0,True
-SALTCRK1,VIC,Salt Creek Wind Farm,Wind,54.0,False
-SAPHWF1,NSW,Sapphire Wind Farm,Wind,270.0,False
-SEBSF1,NSW,Sebastopol Solar Farm,Solar,90.0,True
-STWF1,NSW,Silverton Wind Farm,Wind,198.0,False
-SNOWNTH1,SA,Snowtown S2 Wind Farm,Wind,144.0,False
-SNOWSTH1,SA,Snowtown S2 Wind Farm,Wind,126.0,False
-SNOWTWN1,SA,Snowtown Wind Farm,Wind,99.0,False
-STARHLWF,SA,Starfish Hill,Wind,35.0,True
-STOCKYD1,VIC,Stockyard Hill Wind Farm,Wind,511.0,True
-STUBSF1,NSW,Stubbo Solar Farm,Solar,202.0,True
-STUBSF2,NSW,Stubbo Solar Farm,Solar,198.0,True
-SMCSF1,QLD,Sun Metals Corporation Solar Farm,Solar,121.0,False
-SUNRSF1,NSW,Sunraysia Solar Farm,Solar,200.0,True
-SUNTPSF1,NSW,Suntop Solar Farm,Solar,150.0,True
-SRSF1,QLD,Susan River Solar Farm,Solar,75.0,False
-TBSF1,SA,Tailem Bend - Solar,Solar,95.0,False
-TB2SF1,SA,Tailem Bend Stage 2 Solar Project,Solar,87.0,True
-TARALGA1,NSW,Taralga Wind Farm,Wind,106.0,False
-WAGGNSF1,NSW,Wagga North Solar Farm,Solar,48.0,True
-WANDSF1,QLD,Wandoan South Solar Stage 1,Solar,125.0,True
-WARWSF1,QLD,Warwick Solar Farm,Solar,32.0,True
-WARWSF2,QLD,Warwick Solar Farm,Solar,32.0,True
-WATERLWF,SA,Waterloo Wind Farm,Wind,130.0,False
-WPWF,SA,Wattle Point,Wind,91.0,True
-WELNSF1,NSW,Wellington North Solar Farm (Lightsource),Solar,330.0,True
-WELLSF1,NSW,Wellington Solar Farm,Solar,170.0,True
-WEMENSF1,VIC,Wemen Solar Farm,Solar,88.0,False
-WSTWYSF1,NSW,West Wyalong Solar Farm,Solar,90.0,True
-WDGPH1,QLD,Western Downs Green Power Hub P/L,Solar,400.0,True
-WRSF1,NSW,White Rock Solar Farm,Solar,20.0,False
-WRWF1,NSW,White Rock Wind Farm - Stage 1,Wind,172.0,False
-WHITSF1,QLD,Whitsunday Solar Farm,Solar,56.0,False
-WGWF1,SA,Willogoleche Wind Farm,Wind,119.0,False
-WINTSF1,VIC,Winton Solar Farm,Solar,85.0,True
-WOODLWN1,NSW,Woodlawn Wind Farm,Wind,48.0,False
-WOOLGSF1,QLD,Woolooga Solar Farm,Solar,176.0,True
-WUNUSF1,VIC,Wunghnu Solar Farm,Solar,75.0,True
-WYASF1,NSW,Wyalong Solar Farm,Solar,53.0,True
-YARANSF1,QLD,Yarranlea Solar Farm,Solar,103.0,True
-YATSF1,VIC,Yatpool Solar Farm,Solar,81.0,True
-YENDWF1,VIC,Yendon Wind Farm,Wind,142.0,False
+DUID,Region,Name,Technology,Maximum capacity,Late start,Capacity factor
+ADPPV1,SA,Adelaide Desalination Plant,Solar,19.0,True,
+ARWF1,VIC,Ararat Wind Farm,Wind,241.0,False,0.2388425909454227
+AVLSF1,NSW,Avonlie Solar Farm,Solar,190.0,True,
+BALDHWF1,VIC,Bald Hills Wind Farm,Wind,106.0,False,0.3631253533370067
+BANGOWF1,NSW,Bango 973 Wind Farm,Wind,155.0,True,0.168391649493194
+BANGOWF2,NSW,Bango 999 Wind Farm,Wind,82.0,True,0.2070944262105675
+BANN1,VIC,Bannerton Solar Park,Solar,88.0,False,
+BRYB1WF1,VIC,Berrybank Wind Farm,Wind,175.0,True,0.3521790449579337
+BRYB2WF2,VIC,Berrybank Wind Farm,Wind,105.0,True,0.2409153218462624
+BERYLSF1,NSW,Beryl Solar Farm,Solar,87.0,False,
+BLUEGSF1,QLD,Bluegrass Solar Farm,Solar,148.0,True,
+BOCORWF1,NSW,Boco Rock Wind Farm,Wind,113.0,False,0.3257800024979024
+BODWF1,NSW,Bodangora Wind Farm,Wind,111.0,False,0.3312265871194128
+BOWWPV1,SA,Bolivar Waste Water Treatment,Solar,6.0,True,
+BOMENSF1,NSW,Bomen Solar Farm,Solar,100.0,True,
+BROKENH1,NSW,Broken Hill Solar Plant,Solar,53.0,False,
+BULGANA1,VIC,Bulgana Green Power Hub - Wind Farm,Wind,204.0,True,0.2507652168487028
+BNGSF1,SA,Bungala One Solar Farm,Solar,110.0,False,
+BNGSF2,SA,Bungala Two Solar Farm,Solar,110.0,False,
+CNUNDAWF,SA,Canunda,Wind,46.0,True,0.2487459815557504
+CATHROCK,SA,Cathedral Rocks,Wind,66.0,True,0.2515068653356728
+CHYTWF1,VIC,Cherry Tree Wind Farm,Wind,57.0,True,0.3474623468483844
+CHILDSF1,QLD,Childers Solar Farm,Solar,56.0,False,
+CLARESF1,QLD,Clare Solar Farm,Solar,100.0,False,
+CLRKCWF1,QLD,Clarke Creek Wind Farm,Wind,167.0,True,0.002708076295326
+CLEMGPWF,SA,Clements Gap Wind Farm,Wind,57.0,False,0.3321637439782339
+CLERMSF1,QLD,Clermont Solar Farm,Solar,75.0,False,
+COHUNSF1,VIC,Cohuna Solar Farm,Solar,27.0,True,
+COLEASF1,NSW,Coleambally Solar Farm,Solar,150.0,False,
+COLWF01,NSW,Collector,Wind,219.0,True,0.2459346175195489
+CSPVPS1,QLD,Collinsville PV,Solar,40.0,False,
+COLUMSF1,QLD,Columboola Solar Farm,Solar,162.0,True,
+COOPGWF1,QLD,Coopers Gap Wind Farm,Wind,440.0,False,0.3253777930114465
+CRWASF1,NSW,Corowa Solar Farm,Solar,30.0,True,
+CROOKWF2,NSW,Crookwell 2 Wind Farm,Wind,91.0,False,0.3159830954767025
+CROOKWF3,NSW,Crookwell 3 Wind Farm,Wind,56.0,True,0.0981049691041115
+CROWLWF1,VIC,Crowlands Wind Farm,Wind,79.0,False,0.3678210710739709
+CRURWF1,NSW,Crudine Ridge Wind Farm,Wind,138.0,True,0.2640074000122632
+DDSF1,QLD,Darling Downs Solar Farm,Solar,108.0,False,
+DARLSF1,NSW,Darlington Point Solar Farm,Solar,275.0,True,
+DAYDSF1,QLD,Daydream Solar Farm,Solar,150.0,False,
+DULAWF1,QLD,Dulacca Wind Farm,Wind,173.0,True,0.3313735533052835
+DUNDWF1,VIC,Dundonnell Wind Farm,Wind,168.0,True,0.3068297120608134
+DUNDWF2,VIC,Dundonnell Wind Farm,Wind,46.0,True,0.3018495223899681
+DUNDWF3,VIC,Dundonnell Wind Farm,Wind,122.0,True,0.3323837677742627
+EDENVSF1,QLD,Edenvale Solar Park,Solar,146.0,True,
+ELAINWF1,VIC,Elaine Wind Farm,Wind,82.0,True,0.2485368223714548
+EMERASF1,QLD,Emerald Solar Park,Solar,72.0,False,
+FINLYSF1,NSW,Finley Solar Farm,Solar,133.0,False,
+FLYCRKWF,NSW,Flyers Creek Wind Farm,Wind,140.0,True,0.1374368419828869
+GANGARR1,QLD,Gangarri Solar Farm,Solar,120.0,True,
+GANNSF1,VIC,Gannawarra Solar Farm,Solar,50.0,False,
+GIRGSF,VIC,Girgarre Solar Farm,Solar,76.0,True,
+GLENSF1,VIC,Glenrowan Solar Farm,Solar,102.0,True,
+GLRWNSF1,VIC,Glenrowan West Solar Farm,Solar,110.0,True,
+GPWFEST1,VIC,Golden Plains Wind Farm East,Wind,240.0,True,3.174854542042042e-06
+GPWFEST2,VIC,Golden Plains Wind Farm East,Wind,253.0,True,0.0186913426128388
+GPWFEST3,VIC,Golden Plains Wind Farm East,Wind,240.0,True,0.0
+GOONSF1,NSW,Goonumbla Solar Farm,Solar,69.0,True,
+GSWF1A,SA,Goyder South Wind Farm 1A,Wind,201.0,True,0.0558539101710455
+GSWF1B1,SA,Goyder South Wind Farm 1B,Wind,196.0,True,0.0015903597808006
+GULLRSF1,NSW,Gullen Range Solar Farm,Solar,10.0,False,
+GULLRWF1,NSW,Gullen Range Wind Farm,Wind,161.0,False,0.3224001045948114
+GULLRWF2,NSW,Gullen Range Wind Farm 2,Wind,107.0,True,0.2706964342679281
+GNNDHSF1,NSW,Gunnedah Solar Farm,Solar,110.0,True,
+GUNNING1,NSW,Gunning Wind Farm,Wind,47.0,False,0.3641812086836327
+NBHWF1,SA,Hallett 4 North Brown Hill,Wind,132.0,False,0.3361827111655174
+BLUFF1,SA,Hallett 5 The Bluff WF,Wind,53.0,False,0.2686692047723252
+HALLWF1,SA,Hallett Stage 1 Brown Hill,Wind,95.0,False,0.3216921130169173
+HALLWF2,SA,Hallett Stage 2 Hallett Hill,Wind,71.0,False,0.3324347683529605
+HAMISF1,QLD,Hamilton Solar Farm,Solar,56.0,False,
+HVWWPV1,SA,Happy Valley Reservoir,Solar,8.0,True,
+HAUGHT11,QLD,Haughton Solar Farm Stage 1,Solar,100.0,False,
+HD1WF1,VIC,Hawkesdale Wind Farm,Wind,89.0,True,0.262227154249412
+HAYMSF1,QLD,Hayman Solar Farm,Solar,50.0,False,
+HILLSTN1,NSW,Hillston Sun Farm,Solar,85.0,True,
+HDWF1,SA,Hornsdale Wind Farm Stage 1,Wind,102.0,False,0.393369667924335
+HDWF2,SA,Hornsdale Wind Farm Stage 2,Wind,102.0,False,0.3702630627213902
+HDWF3,SA,Hornsdale Wind Farm Stage 3,Wind,109.0,False,0.3704979576050215
+JEMALNG1,NSW,Jemalong Solar,Solar,50.0,True,
+JUNEESF1,NSW,Junee Solar Farm,Solar,30.0,True,
+KABANWF1,QLD,Kaban Wind Farm,Wind,152.0,True,0.2457258100637942
+KARSF1,VIC,Karadoc Solar Farm,Solar,90.0,False,
+KEPSF1,QLD,Kennedy Energy Park - Phase 1 - Solar,Solar,15.0,True,
+KEPWF1,QLD,Kennedy Energy Park - Phase 1 - Wind,Wind,43.0,True,0.3068509005469907
+KIAMSF1,VIC,Kiamal Solar Farm - Stage 1,Solar,200.0,True,
+KIATAWF1,VIC,Kiata Wind Farm,Wind,31.0,False,0.4339787983666203
+KSP1,QLD,Kidston Solar Project Phase One 50MW,Solar,47.0,False,
+KINGASF1,QLD,Kingaroy Solar Farm,Solar,40.0,True,
+LKBONNY1,SA,Lake Bonney 1 Wind Farm,Wind,81.0,True,0.199733707954388
+LKBONNY2,SA,Lake Bonney 2 Wind Farm,Wind,159.0,False,0.2302384837175867
+LKBONNY3,SA,Lake Bonney 3 Wind Farm,Wind,39.0,False,0.2209177828187448
+LILYSF1,QLD,Lilyvale Solar Farm,Solar,100.0,False,
+LIMOSF11,NSW,Limondale Solar Farm 1,Solar,220.0,True,
+LIMOSF21,NSW,Limondale Solar Farm 2,Solar,29.0,False,
+LGAPWF1,SA,Lincoln Gap Wind Farm - stage 1,Wind,123.0,False,0.359292155451618
+LGAPWF2,SA,Lincoln Gap Wind Farm - Stage 2,Wind,85.0,True,0.3441193271209928
+MACARTH1,VIC,Macarthur Wind Farm,Wind,420.0,False,0.1868023634194777
+MANSLR1,NSW,Manildra Solar Farm,Solar,46.0,False,
+MAPS2PV1,SA,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),Solar,13.0,True,
+MAPS3PV1,SA,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),Solar,12.0,True,
+MANNSF2,SA,Mannum Solar Farm 2,Solar,29.0,True,
+MARYRSF1,QLD,Maryrorough Solar Farm,Solar,27.0,True,
+METZSF1,NSW,Metz Solar Farm,Solar,115.0,True,
+MIDDLSF1,QLD,Middlemount Solar Farm,Solar,26.0,True,
+MOKOSF1,VIC,Mokoan Solar Farm (LightsourceBP),Solar,46.0,True,
+MOLNGSF1,NSW,Molong Solar Farm,Solar,30.0,True,
+MOORAWF1,VIC,Moorabool Wind Farm,Wind,305.0,True,0.2186926670063422
+MOREESF1,NSW,Moree Solar Farm,Solar,56.0,False,
+MWPS1PV1,SA,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,Solar,4.0,True,
+MWPS2PV1,SA,Morgan To Whyalla Pipeline No 2 PS,Solar,4.0,True,
+MWPS3PV1,SA,Morgan To Whyalla Pipeline No 3 PS,Solar,6.0,True,
+MWPS4PV1,SA,Morgan To Whyalla Pipeline No 4 PS,Solar,4.0,True,
+MRTLSWF1,VIC,Mortlake South Wind Farm,Wind,153.0,True,0.1805370463843292
+MEWF1,QLD,Mount Emerald,Wind,178.0,False,0.2757686550194979
+MOUSF1,QLD,Moura Solar Farm,Solar,82.0,True,
+MTGELWF1,VIC,Mt Gellibrand Wind Farm,Wind,132.0,False,0.2500098558689574
+MERCER01,VIC,Mt Mercer Wind Farm,Wind,131.0,False,0.2736037287778176
+MTMILLAR,SA,Mt Millar Wind Farm,Wind,70.0,True,0.2329376749629723
+MUWAWF1,VIC,Murra Warra Wind Farm - stage 1,Wind,225.0,False,0.2976977551682326
+MUWAWF2,VIC,Murra Warra Wind Farm - stage 2,Wind,203.0,True,0.2710620288116668
+MBPS2PV1,SA,Murray Bridge - Onkaparinga Pipeline Pump 2,Solar,10.0,True,
+NEVERSF1,NSW,Nevertire Solar Farm,Solar,105.0,False,
+NEWENSF1,NSW,New England Solar Farm,Solar,200.0,True,
+NEWENSF2,NSW,New England Solar Farm,Solar,200.0,True,
+NUMURSF1,VIC,Numurkah Solar Farm,Solar,100.0,False,
+NYNGAN1,NSW,Nyngan Solar Plant,Solar,102.0,False,
+OAKEY2SF,QLD,Oakey 2 Solar Farm,Solar,55.0,False,
+OAKEY1SF,QLD,Oakey Solar Farm,Solar,25.0,False,
+OAKLAND1,VIC,Oaklands Hill Wind Farm,Wind,63.0,False,0.3043123993875789
+PARSF1,NSW,Parkes Solar Farm,Solar,50.0,False,
+PAREPS1,SA,Port Augusta Renewable Energy Park - Solar,Solar,77.0,True,
+PAREPW1,SA,Port Augusta Renewable Energy Park - Wind,Wind,201.0,True,0.3014593173946207
+RRSF1,QLD,Ross River Solar Farm,Solar,116.0,False,
+RUGBYR1,QLD,Rugby Run Solar Farm,Solar,65.0,False,
+RYANCWF1,VIC,Ryan Corner Wind Farm,Wind,205.0,True,0.1927595998371798
+RYEPARK1,NSW,Rye Park Wind Farm,Wind,384.0,True,0.2231170920561457
+SALTCRK1,VIC,Salt Creek Wind Farm,Wind,54.0,False,0.3039332025525609
+SAPHWF1,NSW,Sapphire Wind Farm,Wind,270.0,False,0.3264759879814893
+SEBSF1,NSW,Sebastopol Solar Farm,Solar,90.0,True,
+STWF1,NSW,Silverton Wind Farm,Wind,198.0,False,0.376626097109862
+SNOWNTH1,SA,Snowtown S2 Wind Farm,Wind,144.0,False,0.3300260249886814
+SNOWSTH1,SA,Snowtown S2 Wind Farm,Wind,126.0,False,0.3721190005023668
+SNOWTWN1,SA,Snowtown Wind Farm,Wind,99.0,False,0.3478038936658748
+STARHLWF,SA,Starfish Hill,Wind,35.0,True,0.2520746241630337
+STOCKYD1,VIC,Stockyard Hill Wind Farm,Wind,511.0,True,0.3157439926995543
+STUBSF1,NSW,Stubbo Solar Farm,Solar,202.0,True,
+STUBSF2,NSW,Stubbo Solar Farm,Solar,198.0,True,
+SMCSF1,QLD,Sun Metals Corporation Solar Farm,Solar,121.0,False,
+SUNRSF1,NSW,Sunraysia Solar Farm,Solar,200.0,True,
+SUNTPSF1,NSW,Suntop Solar Farm,Solar,150.0,True,
+SRSF1,QLD,Susan River Solar Farm,Solar,75.0,False,
+TBSF1,SA,Tailem Bend - Solar,Solar,95.0,False,
+TB2SF1,SA,Tailem Bend Stage 2 Solar Project,Solar,87.0,True,
+TARALGA1,NSW,Taralga Wind Farm,Wind,106.0,False,0.2944510599376893
+WAGGNSF1,NSW,Wagga North Solar Farm,Solar,48.0,True,
+WANDSF1,QLD,Wandoan South Solar Stage 1,Solar,125.0,True,
+WARWSF1,QLD,Warwick Solar Farm,Solar,32.0,True,
+WARWSF2,QLD,Warwick Solar Farm,Solar,32.0,True,
+WATERLWF,SA,Waterloo Wind Farm,Wind,130.0,False,0.304014656753049
+WPWF,SA,Wattle Point,Wind,91.0,True,0.2895132866495069
+WELNSF1,NSW,Wellington North Solar Farm (Lightsource),Solar,330.0,True,
+WELLSF1,NSW,Wellington Solar Farm,Solar,170.0,True,
+WEMENSF1,VIC,Wemen Solar Farm,Solar,88.0,False,
+WSTWYSF1,NSW,West Wyalong Solar Farm,Solar,90.0,True,
+WDGPH1,QLD,Western Downs Green Power Hub P/L,Solar,400.0,True,
+WRSF1,NSW,White Rock Solar Farm,Solar,20.0,False,
+WRWF1,NSW,White Rock Wind Farm - Stage 1,Wind,172.0,False,0.3226584047718713
+WHITSF1,QLD,Whitsunday Solar Farm,Solar,56.0,False,
+WGWF1,SA,Willogoleche Wind Farm,Wind,119.0,False,0.3357944192739356
+WINTSF1,VIC,Winton Solar Farm,Solar,85.0,True,
+WOODLWN1,NSW,Woodlawn Wind Farm,Wind,48.0,False,0.3315297513975441
+WOOLGSF1,QLD,Woolooga Solar Farm,Solar,176.0,True,
+WUNUSF1,VIC,Wunghnu Solar Farm,Solar,75.0,True,
+WYASF1,NSW,Wyalong Solar Farm,Solar,53.0,True,
+YARANSF1,QLD,Yarranlea Solar Farm,Solar,103.0,True,
+YATSF1,VIC,Yatpool Solar Farm,Solar,81.0,True,
+YENDWF1,VIC,Yendon Wind Farm,Wind,142.0,False,0.2599315263372085

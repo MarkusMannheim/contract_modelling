@@ -10,7 +10,7 @@
   * [Data profiles](#data-profiles)
   * [Existing generators](#existing-generators)
   * [Contract concepts](#contract-concepts)
-  * [Costs and financing assumptions](#costs-and-financing-assumptions)
+  * [Finance and cost assumptions](#finance-and-cost-assumptions)
 * [Potential modelling updates](#potential-modelling-updates)
 * [Wind and solar market observations](#wind-and-solar-market-observations)
   * [Size of fleets](#size-of-fleets)
@@ -60,36 +60,28 @@ The following contract concepts will be modelled (this list will likely expand):
 * ToD block price swap (aligned with ASX morning and evening peaks)
 * DWA-TWA spread
 
-### [Costs and financing assumptions](#costs-and-financing-assumptions)
-<a name="costs-and-financing-assumptions"></a>
+### [Finance and cost assumptions](#finance-and-cost-assumptions)
+<a name="finance-and-cost-assumptions"></a>
 
-Cost assumptions are sourced from [CSIRO's GenCost 2024-25](https://www.csiro.au/en/research/technology-space/energy/Electricity-transition/GenCost) ('current policies' scenario, 2024 prices). Finance assumptions are variables, which can be adjusted.
+Financing assumptions are variables, which can be adjusted. Cost assumptions are sourced from [CSIRO's GenCost 2024-25](https://www.csiro.au/en/research/technology-space/energy/Electricity-transition/GenCost) (using 2024 prices under the 'current policies' scenario).
+
+#### Finance
+
+| Metric | Value |
+|-|-|
+| Leverage ratio | 65% |
+| Loan rate | 5% |
+| Equity rate | 15% |
+| Weighted average cost of capital | 8.5% |
 
 #### Costs
 
 | | Wind | Solar |
 |-|-|-|
-| Capex (\$/kW) | $3,351 | $1,463 |
-| Economic life (years) | 25 | 30 |
-| FOM (\$/kW/year) | $28 | $12 |
-
-#### Financing
-
-| Metric | Value |
-|-|-|
-| Loan | 65% |
-| Equity | 35% |
-| Loan rate | 5% |
-| Equity rate | 15% |
-| WACC | 8.5% |
-
-#### Annualised costs ($/MW/year)
-
-| Wind | Solar |
-|-|-|
-| $355,432 | $148,133 |
-
-
+| Capital expenditure *(\$/kW)* | $3,351 | $1,463 |
+| Economic life *(years)* | 25 | 30 |
+| Fixed operating & maintenance costs *(\$/kW/year)* | $28 | $12 |
+| Annualised costs ($/MW/year) | **$355,432** | **$148,133** |
 
 [Back to top](#top)
 
