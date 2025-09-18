@@ -59,6 +59,7 @@ def save_figure(fig, filename, charts_dir):
     """Save a matplotlib figure to the charts directory."""
     fig.savefig(
         os.path.join(charts_dir, f"{filename}.png"),
+        transparent=True,
         bbox_inches="tight",
         dpi=300)
     plt.close(fig)
