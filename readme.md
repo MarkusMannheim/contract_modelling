@@ -55,10 +55,8 @@ The following contract concepts will be modelled (this list will likely expand):
 * TWA (baseload) swap
 * $300 cap
 * Reference ex-post DWA swap
-* Reference ex-post revenue swap
-* Fixed shape DWA price swap
-* ToD block price swap (aligned with ASX morning and evening peaks)
-* DWA-TWA spread
+* ToD block price swap (uncapped) (aligned with ASX morning and evening peaks)
+* ToD block price swap (capped)
 
 ### [Finance and cost assumptions](#finance-and-cost-assumptions)
 <a name="finance-and-cost-assumptions"></a>
